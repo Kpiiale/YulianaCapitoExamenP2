@@ -25,7 +25,7 @@ namespace YulianaCapitoExamenP2.Repositories
 
         public List<iUsuarioYCRepository> DevuelveListadoUsuario()
         {
-          
+            throw new NotImplementedException();
         }
 
         public bool EliminarUsuario(int id)

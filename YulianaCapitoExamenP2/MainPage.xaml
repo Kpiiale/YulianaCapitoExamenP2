@@ -5,10 +5,15 @@
 
     <ScrollView>
         <StackLayout>
-            <Entry x:Name="entry"
-                   Placeholder="Enter text"
-                   TextChanged="OnEntryTextChanged"
-                   Completed="OnEntryCompleted" />
+            <Label Text="Ingresar numero de telefono"/>
+            <Entry x:Name="YCtelefono"
+                   
+                    />
+            <Label Text="Ingresar nombre"/>
+            <Entry x:Name="YCnombre"
+                   
+        />
+            <Button Text=" Ingresar"/>
         </StackLayout>
     </ScrollView>
 
