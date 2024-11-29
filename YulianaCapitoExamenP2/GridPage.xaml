@@ -15,9 +15,9 @@
 
         <Label Text="Yuliana"/>
         <Label Text="Alessandra" Grid.Column="1"/>
-        <Label Text="Capito " Grid.Row="1"/>
+        <Label x:Name="yc1"  Text="Capito " Grid.Row="1"/>
         <VerticalStackLayout Grid.Column="1" Grid.Row="1">
-            <Label Text="Ruiz "/>
+            <Label x:Name="yc2" Text="Ruiz "/>
         </VerticalStackLayout>
     </Grid>
 </ContentPage>

@@ -13,6 +13,8 @@ namespace YulianaCapitoExamenP2.Repositories
 
     class UsuarioYCRepository : iUsuarioYCRepository
     {
+     
+        string _fileName = Path.Combine(FileSystem.AppDataDirectory, "yulianacapito.txt");
         public bool ActualizarUsuario(UsuarioYC estudiante)
         {
             throw new NotImplementedException();
