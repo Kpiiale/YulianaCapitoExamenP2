@@ -4,7 +4,12 @@
              x:Class="YulianaCapitoExamenP2.MainPage">
 
     <ScrollView>
-      
+        <StackLayout>
+            <Entry x:Name="entry"
+                   Placeholder="Enter text"
+                   TextChanged="OnEntryTextChanged"
+                   Completed="OnEntryCompleted" />
+        </StackLayout>
     </ScrollView>
 
 </ContentPage>
